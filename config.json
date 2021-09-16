@@ -1,0 +1,61 @@
+{
+    "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": null,
+        "access-token": null,
+        "restricted": true
+    },
+    "autosave": true,
+    "background": false,
+    "colors": true,
+    "randomx": {
+        "init": -1,
+        "mode": "auto",
+        "numa": true
+    },
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "hw-aes": null,
+        "priority": null,
+        "memory-pool": false,
+        "yield": true,
+        "max-threads-hint": 88,
+        "asm": true,
+        "argon2-impl": null,
+        "astrobwt-max-size": 450,
+        "cn/0": false,
+        "cn-lite/0": false,
+        "kawpow": false
+    },
+    "cuda": {
+        "enabled": false,
+        "loader": null
+    },
+    "donate-level": 5,
+    "donate-over-proxy": 1,
+    "log-file": null,
+    "pools": [
+        {
+            "coin": "monero",
+            "url": "xmrpool.eu:5555",
+            "user": "45tVmSSpuChKeDsAwaNCX2diMyrJqK4r1GGGQTcRmuPZdcUeHNj8Jk7ezEKNDGTe62Z8Vk71CYyDs7jFkkEWPkWoFQ6wmvf",
+            "pass": "x",
+            "rig-id": "test",
+            "keepalive": true,
+            "enabled": true
+        }
+    ],
+    "print-time": 1800,
+    "retries": 1,
+    "retry-pause": 5,
+    "syslog": false,
+    "user-agent": null,
+    "watch": true
+}
+                
